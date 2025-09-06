@@ -9,11 +9,24 @@ from random import choice
 
 
 def play_again():
+  """This function assists user to re-play the game.
+
+  :return: As long as user does not enter 'q', game will be on!
+  :rtype: str
+  """
+
   your_wish = input("Do you want to play again? Enter 'Yes' to continue, 'q' to quit the game: ").lower()
   return your_wish
 
 
 def evaluate_game(your_hand, computer_hand):
+  """This function evaluate whether user or computer wins the game.
+
+  :param your_hand: What user/player chooses to play.
+  :type your_hand: str
+  :param computer_hand: What computer chooses to play.
+  :type computer_hand: str
+  """
   if your_hand == computer_hand:
     print("Game is tied")
     
@@ -40,6 +53,9 @@ def evaluate_game(your_hand, computer_hand):
 
   
 def play_game():
+  """Game will be played if user chooses this function. No argument is require
+     as the start of the game.
+  """
   game_list = ['rock', 'paper', 'scissors']
   computer_hand = choice(game_list)
   game_on = 'yes'
