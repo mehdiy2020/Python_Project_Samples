@@ -1,4 +1,5 @@
 
+![My Logo](image/mehdi_logo.png)
 <img.src="image/mehdi_logo.png" width = "200">
 # Two methods for this simple game are presented in `scr` folder:
 

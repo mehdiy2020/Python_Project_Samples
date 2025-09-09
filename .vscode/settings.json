@@ -21,4 +21,8 @@
   "peacock.remoteColor": "#78616d",
   
     "python.analysis.extraPaths": ["./"],
+  "remote.extensionKind": {
+  "adpyke.codesnap": ["ui"]
+    },
+
 }
