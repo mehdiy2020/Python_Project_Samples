@@ -1,7 +1,7 @@
 ![My Logo](../image/mehdi_logo.png)
 <img src="../image/mehdi_logo.png" width = "200">
 
-![My Logo](image/mehdi_logo.png)
+
 # Two methods for this simple game are presented in `scr` folder:
 
 ## Using Function:
